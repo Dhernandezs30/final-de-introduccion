@@ -1,0 +1,78 @@
+/* Estilos para la calculadora */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.calculator {
+    width: 300px;
+    background-color: #333;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.display {
+    background-color: #444;
+    color: #fff;
+    font-size: 2em;
+    text-align: right;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.btn {
+    width: 100%;
+    height: 60px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.number {
+    background-color: #666;
+    color: #fff;
+}
+
+.operator {
+    background-color: #ff9500;
+    color: #fff;
+}
+
+.clear {
+    background-color: #ff3b30;
+    color: #fff;
+}
+
+.equal {
+    background-color: #4cd964;
+    color: #fff;
+}
+
+.decimal {
+    background-color: #5ac8fa;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+.btn:active {
+    background-color: #444;
+}
